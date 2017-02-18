@@ -142,7 +142,6 @@ $colors: (
         slategray, // #708090 // rgb(112, 128, 144)
         darkslategray, // #2f4f4f // rgb(47, 79, 79)
         black // #000000 // rgb(0, 0, 0)
-
 );
 
 @mixin color($color-stack, $stack: 1) {
@@ -150,7 +149,7 @@ $colors: (
 }
 
 @each $color in $colors {
-
+        
   $class: nth($color, 1);
   $color-stack: ();
 
