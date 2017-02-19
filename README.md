@@ -1,6 +1,5 @@
 # the-color-names
 
-```
 NAME | HEX | RGB
 --- | --- | ---
 indianred | #cd5c5c | rgb(205, 92, 92)
@@ -146,4 +145,3 @@ lightslategray | #778899 | rgb(119, 136, 153)
 slategray | #708090 | rgb(112, 128, 144)
 darkslategray | #2f4f4f | rgb(47, 79, 79)
 black | #000000 | rgb(0, 0, 0)
-```
