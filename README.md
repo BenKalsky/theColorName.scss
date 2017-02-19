@@ -1,4 +1,4 @@
-# theColorNames.scss
+# [theColorNames.scss](https://benkalsky.github.io/theColorName.scss/)
 
 This library contain a SCSS mixin with all 147 CSS color names:
 
