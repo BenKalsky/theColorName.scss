@@ -1,4 +1,4 @@
-# the-color-names
+# theColorNames
 
 NAME | HEX | RGB
 --- | --- | ---
