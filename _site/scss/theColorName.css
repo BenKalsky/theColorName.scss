@@ -1,573 +1,569 @@
-.theColorName.--indianred {
-  color: indianred;
+.theColorName.--IndianRed {
+  color: IndianRed;
 }
 
-.theColorName.--lightcoral {
-  color: lightcoral;
+.theColorName.--LightCoral {
+  color: LightCoral;
 }
 
-.theColorName.--salmon {
-  color: salmon;
+.theColorName.--Salmon {
+  color: Salmon;
 }
 
-.theColorName.--darksalmon {
-  color: darksalmon;
+.theColorName.--DarkSalmon {
+  color: DarkSalmon;
 }
 
-.theColorName.--lightsalmon {
-  color: lightsalmon;
+.theColorName.--LightSalmon {
+  color: LightSalmon;
 }
 
-.theColorName.--crimson {
-  color: crimson;
+.theColorName.--Crimson {
+  color: Crimson;
 }
 
-.theColorName.--red {
-  color: red;
+.theColorName.--Red {
+  color: Red;
 }
 
-.theColorName.--firebrick {
-  color: firebrick;
+.theColorName.--FireBrick {
+  color: FireBrick;
 }
 
-.theColorName.--darkred {
-  color: darkred;
+.theColorName.--DarkRed {
+  color: DarkRed;
 }
 
-.theColorName.--pink {
-  color: pink;
+.theColorName.--Pink {
+  color: Pink;
 }
 
-.theColorName.--lightpink {
-  color: lightpink;
+.theColorName.--LightPink {
+  color: LightPink;
 }
 
-.theColorName.--hotpink {
-  color: hotpink;
+.theColorName.--HotPink {
+  color: HotPink;
 }
 
-.theColorName.--deeppink {
-  color: deeppink;
+.theColorName.--DeepPink {
+  color: DeepPink;
 }
 
-.theColorName.--mediumvioletred {
-  color: mediumvioletred;
+.theColorName.--MediumVioletRed {
+  color: MediumVioletRed;
 }
 
-.theColorName.--palevioletred {
-  color: palevioletred;
+.theColorName.--PaleVioletRed {
+  color: PaleVioletRed;
 }
 
-.theColorName.--lightsalmon {
-  color: lightsalmon;
+.theColorName.--LightSalmon {
+  color: LightSalmon;
 }
 
-.theColorName.--coral {
-  color: coral;
+.theColorName.--Coral {
+  color: Coral;
 }
 
-.theColorName.--tomato {
-  color: tomato;
+.theColorName.--Tomato {
+  color: Tomato;
 }
 
-.theColorName.--orangered {
-  color: orangered;
+.theColorName.--OrangeRed {
+  color: OrangeRed;
 }
 
-.theColorName.--darkorange {
-  color: darkorange;
+.theColorName.--DarkOrange {
+  color: DarkOrange;
 }
 
-.theColorName.--orange {
-  color: orange;
+.theColorName.--Orange {
+  color: Orange;
 }
 
-.theColorName.--gold {
-  color: gold;
+.theColorName.--Gold {
+  color: Gold;
 }
 
-.theColorName.--yellow {
-  color: yellow;
+.theColorName.--Yellow {
+  color: Yellow;
 }
 
-.theColorName.--lightyellow {
-  color: lightyellow;
+.theColorName.--LightYellow {
+  color: LightYellow;
 }
 
-.theColorName.--lemonchiffon {
-  color: lemonchiffon;
+.theColorName.--LemonChiffon {
+  color: LemonChiffon;
 }
 
-.theColorName.--lightgoldenrodyellow {
-  color: lightgoldenrodyellow;
+.theColorName.--LightGoldenRodYellow {
+  color: LightGoldenRodYellow;
 }
 
-.theColorName.--papayawhip {
-  color: papayawhip;
+.theColorName.--PapayaWhip {
+  color: PapayaWhip;
 }
 
-.theColorName.--moccasin {
-  color: moccasin;
+.theColorName.--Moccasin {
+  color: Moccasin;
 }
 
-.theColorName.--peachpuff {
-  color: peachpuff;
+.theColorName.--PeachPuff {
+  color: PeachPuff;
 }
 
-.theColorName.--palegoldenrod {
-  color: palegoldenrod;
+.theColorName.--PaleGoldenRod {
+  color: PaleGoldenRod;
 }
 
-.theColorName.--khaki {
-  color: khaki;
+.theColorName.--Khaki {
+  color: Khaki;
 }
 
-.theColorName.--darkkhaki {
-  color: darkkhaki;
+.theColorName.--DarkKhaki {
+  color: DarkKhaki;
 }
 
-.theColorName.--lavender {
-  color: lavender;
+.theColorName.--Lavender {
+  color: Lavender;
 }
 
-.theColorName.--thistle {
-  color: thistle;
+.theColorName.--Thistle {
+  color: Thistle;
 }
 
-.theColorName.--plum {
-  color: plum;
+.theColorName.--Plum {
+  color: Plum;
 }
 
-.theColorName.--violet {
-  color: violet;
+.theColorName.--Violet {
+  color: Violet;
 }
 
-.theColorName.--orchid {
-  color: orchid;
+.theColorName.--Orchid {
+  color: Orchid;
 }
 
-.theColorName.--fuchsia {
-  color: fuchsia;
+.theColorName.--Fuchsia {
+  color: Fuchsia;
 }
 
-.theColorName.--magenta {
-  color: magenta;
+.theColorName.--Magenta {
+  color: Magenta;
 }
 
-.theColorName.--mediumorchid {
-  color: mediumorchid;
+.theColorName.--MediumOrchid {
+  color: MediumOrchid;
 }
 
-.theColorName.--mediumpurple {
-  color: mediumpurple;
+.theColorName.--MediumPurple {
+  color: MediumPurple;
 }
 
-.theColorName.--rebeccapurple {
-  color: rebeccapurple;
+.theColorName.--RebeccaPurple {
+  color: RebeccaPurple;
 }
 
-.theColorName.--blueviolet {
-  color: blueviolet;
+.theColorName.--BlueViolet {
+  color: BlueViolet;
 }
 
-.theColorName.--darkviolet {
-  color: darkviolet;
+.theColorName.--DarkViolet {
+  color: DarkViolet;
 }
 
-.theColorName.--darkorchid {
-  color: darkorchid;
+.theColorName.--DarkOrchid {
+  color: DarkOrchid;
 }
 
-.theColorName.--darkmagenta {
-  color: darkmagenta;
+.theColorName.--DarkMagenta {
+  color: DarkMagenta;
 }
 
-.theColorName.--purple {
-  color: purple;
+.theColorName.--Purple {
+  color: Purple;
 }
 
-.theColorName.--indigo {
-  color: indigo;
+.theColorName.--Indigo {
+  color: Indigo;
 }
 
-.theColorName.--slateblue {
-  color: slateblue;
+.theColorName.--SlateBlue {
+  color: SlateBlue;
 }
 
-.theColorName.--darkslateblue {
-  color: darkslateblue;
+.theColorName.--DarkSlateBlue {
+  color: DarkSlateBlue;
 }
 
-.theColorName.--mediumslateblue {
-  color: mediumslateblue;
+.theColorName.--MediumSlateBlue {
+  color: MediumSlateBlue;
 }
 
-.theColorName.--greenyellow {
-  color: greenyellow;
+.theColorName.--GreenYellow {
+  color: GreenYellow;
 }
 
-.theColorName.--chartreuse {
-  color: chartreuse;
+.theColorName.--Chartreuse {
+  color: Chartreuse;
 }
 
-.theColorName.--lawngreen {
-  color: lawngreen;
+.theColorName.--LawnGreen {
+  color: LawnGreen;
 }
 
-.theColorName.--lime {
-  color: lime;
+.theColorName.--Lime {
+  color: Lime;
 }
 
-.theColorName.--limegreen {
-  color: limegreen;
+.theColorName.--LimeGreen {
+  color: LimeGreen;
 }
 
-.theColorName.--palegreen {
-  color: palegreen;
+.theColorName.--PaleGreen {
+  color: PaleGreen;
 }
 
-.theColorName.--lightgreen {
-  color: lightgreen;
+.theColorName.--LightGreen {
+  color: LightGreen;
 }
 
-.theColorName.--mediumspringgreen {
-  color: mediumspringgreen;
+.theColorName.--MediumSpringGreen {
+  color: MediumSpringGreen;
 }
 
-.theColorName.--springgreen {
-  color: springgreen;
+.theColorName.--SpringGreen {
+  color: SpringGreen;
 }
 
-.theColorName.--mediumseagreen {
-  color: mediumseagreen;
+.theColorName.--MediumSeaGreen {
+  color: MediumSeaGreen;
 }
 
-.theColorName.--seagreen {
-  color: seagreen;
+.theColorName.--SeaGreen {
+  color: SeaGreen;
 }
 
-.theColorName.--forestgreen {
-  color: forestgreen;
+.theColorName.--ForestGreen {
+  color: ForestGreen;
 }
 
-.theColorName.--green {
-  color: green;
+.theColorName.--Green {
+  color: Green;
 }
 
-.theColorName.--darkgreen {
-  color: darkgreen;
+.theColorName.--DarkGreen {
+  color: DarkGreen;
 }
 
-.theColorName.--yellowgreen {
-  color: yellowgreen;
+.theColorName.--YellowGreen {
+  color: YellowGreen;
 }
 
-.theColorName.--olivedrab {
-  color: olivedrab;
+.theColorName.--OliveDrab {
+  color: OliveDrab;
 }
 
-.theColorName.--olive {
-  color: olive;
+.theColorName.--Olive {
+  color: Olive;
 }
 
-.theColorName.--darkolivegreen {
-  color: darkolivegreen;
+.theColorName.--DarkOliveGreen {
+  color: DarkOliveGreen;
 }
 
-.theColorName.--mediumaquamarine {
-  color: mediumaquamarine;
+.theColorName.--MediumAquaMarine {
+  color: MediumAquaMarine;
 }
 
-.theColorName.--darkseagreen {
-  color: darkseagreen;
+.theColorName.--DarkSeaGreen {
+  color: DarkSeaGreen;
 }
 
-.theColorName.--lightseagreen {
-  color: lightseagreen;
+.theColorName.--LightSeaGreen {
+  color: LightSeaGreen;
 }
 
-.theColorName.--darkcyan {
-  color: darkcyan;
+.theColorName.--DarkCyan {
+  color: DarkCyan;
 }
 
-.theColorName.--teal {
-  color: teal;
+.theColorName.--Teal {
+  color: Teal;
 }
 
-.theColorName.--aqua {
-  color: aqua;
+.theColorName.--Aqua {
+  color: Aqua;
 }
 
-.theColorName.--cyan {
-  color: cyan;
+.theColorName.--Cyan {
+  color: Cyan;
 }
 
-.theColorName.--lightcyan {
-  color: lightcyan;
+.theColorName.--LightCyan {
+  color: LightCyan;
 }
 
-.theColorName.--paleturquoise {
-  color: paleturquoise;
+.theColorName.--PaleTurquoise {
+  color: PaleTurquoise;
 }
 
-.theColorName.--aquamarine {
-  color: aquamarine;
+.theColorName.--Aquamarine {
+  color: Aquamarine;
 }
 
-.theColorName.--turquoise {
-  color: turquoise;
+.theColorName.--Turquoise {
+  color: Turquoise;
 }
 
-.theColorName.--mediumturquoise {
-  color: mediumturquoise;
+.theColorName.--MediumTurquoise {
+  color: MediumTurquoise;
 }
 
-.theColorName.--darkturquoise {
-  color: darkturquoise;
+.theColorName.--DarkTurquoise {
+  color: DarkTurquoise;
 }
 
-.theColorName.--cadetblue {
-  color: cadetblue;
+.theColorName.--CadetBlue {
+  color: CadetBlue;
 }
 
-.theColorName.--steelblue {
-  color: steelblue;
+.theColorName.--SteelBlue {
+  color: SteelBlue;
 }
 
-.theColorName.--lightsteelblue {
-  color: lightsteelblue;
+.theColorName.--LightSteelBlue {
+  color: LightSteelBlue;
 }
 
-.theColorName.--powderblue {
-  color: powderblue;
+.theColorName.--PowderBlue {
+  color: PowderBlue;
 }
 
-.theColorName.--lightblue {
-  color: lightblue;
+.theColorName.--LightBlue {
+  color: LightBlue;
 }
 
-.theColorName.--skyblue {
-  color: skyblue;
+.theColorName.--SkyBlue {
+  color: SkyBlue;
 }
 
-.theColorName.--lightskyblue {
-  color: lightskyblue;
+.theColorName.--LightSkyBlue {
+  color: LightSkyBlue;
 }
 
-.theColorName.--deepskyblue {
-  color: deepskyblue;
+.theColorName.--DeepSkyBlue {
+  color: DeepSkyBlue;
 }
 
-.theColorName.--dodgerblue {
-  color: dodgerblue;
+.theColorName.--DodgerBlue {
+  color: DodgerBlue;
 }
 
-.theColorName.--cornflowerblue {
-  color: cornflowerblue;
+.theColorName.--CornflowerBlue {
+  color: CornflowerBlue;
 }
 
-.theColorName.--mediumslateblue {
-  color: mediumslateblue;
+.theColorName.--RoyalBlue {
+  color: RoyalBlue;
 }
 
-.theColorName.--royalblue {
-  color: royalblue;
+.theColorName.--Blue {
+  color: Blue;
 }
 
-.theColorName.--blue {
-  color: blue;
+.theColorName.--MediumBlue {
+  color: MediumBlue;
 }
 
-.theColorName.--mediumblue {
-  color: mediumblue;
+.theColorName.--DarkBlue {
+  color: DarkBlue;
 }
 
-.theColorName.--darkblue {
-  color: darkblue;
+.theColorName.--Navy {
+  color: Navy;
 }
 
-.theColorName.--navy {
-  color: navy;
+.theColorName.--MidnightBlue {
+  color: MidnightBlue;
 }
 
-.theColorName.--midnightblue {
-  color: midnightblue;
+.theColorName.--Cornsilk {
+  color: Cornsilk;
 }
 
-.theColorName.--cornsilk {
-  color: cornsilk;
+.theColorName.--BlanchedAlmond {
+  color: BlanchedAlmond;
 }
 
-.theColorName.--blanchedalmond {
-  color: blanchedalmond;
+.theColorName.--Bisque {
+  color: Bisque;
 }
 
-.theColorName.--bisque {
-  color: bisque;
+.theColorName.--NavajoWhite {
+  color: NavajoWhite;
 }
 
-.theColorName.--navajowhite {
-  color: navajowhite;
+.theColorName.--Wheat {
+  color: Wheat;
 }
 
-.theColorName.--wheat {
-  color: wheat;
+.theColorName.--BurlyWood {
+  color: BurlyWood;
 }
 
-.theColorName.--burlywood {
-  color: burlywood;
+.theColorName.--Tan {
+  color: Tan;
 }
 
-.theColorName.--tan {
-  color: tan;
+.theColorName.--RosyBrown {
+  color: RosyBrown;
 }
 
-.theColorName.--rosybrown {
-  color: rosybrown;
+.theColorName.--SandyBrown {
+  color: SandyBrown;
 }
 
-.theColorName.--sandybrown {
-  color: sandybrown;
+.theColorName.--Goldenrod {
+  color: Goldenrod;
 }
 
-.theColorName.--goldenrod {
-  color: goldenrod;
+.theColorName.--DarkGoldenRod {
+  color: DarkGoldenRod;
 }
 
-.theColorName.--darkgoldenrod {
-  color: darkgoldenrod;
+.theColorName.--Peru {
+  color: Peru;
 }
 
-.theColorName.--peru {
-  color: peru;
+.theColorName.--Chocolate {
+  color: Chocolate;
 }
 
-.theColorName.--chocolate {
-  color: chocolate;
+.theColorName.--SaddleBrown {
+  color: SaddleBrown;
 }
 
-.theColorName.--saddlebrown {
-  color: saddlebrown;
+.theColorName.--Sienna {
+  color: Sienna;
 }
 
-.theColorName.--sienna {
-  color: sienna;
+.theColorName.--Brown {
+  color: Brown;
 }
 
-.theColorName.--brown {
-  color: brown;
+.theColorName.--Maroon {
+  color: Maroon;
 }
 
-.theColorName.--maroon {
-  color: maroon;
+.theColorName.--White {
+  color: White;
 }
 
-.theColorName.--white {
-  color: white;
+.theColorName.--Snow {
+  color: Snow;
 }
 
-.theColorName.--snow {
-  color: snow;
+.theColorName.--HoneyDew {
+  color: HoneyDew;
 }
 
-.theColorName.--honeydew {
-  color: honeydew;
+.theColorName.--MintCream {
+  color: MintCream;
 }
 
-.theColorName.--mintcream {
-  color: mintcream;
+.theColorName.--Azure {
+  color: Azure;
 }
 
-.theColorName.--azure {
-  color: azure;
+.theColorName.--AliceBlue {
+  color: AliceBlue;
 }
 
-.theColorName.--aliceblue {
-  color: aliceblue;
+.theColorName.--GhostWhite {
+  color: GhostWhite;
 }
 
-.theColorName.--ghostwhite {
-  color: ghostwhite;
+.theColorName.--WhiteSmoke {
+  color: WhiteSmoke;
 }
 
-.theColorName.--whitesmoke {
-  color: whitesmoke;
+.theColorName.--SeaShell {
+  color: SeaShell;
 }
 
-.theColorName.--seashell {
-  color: seashell;
+.theColorName.--Beige {
+  color: Beige;
 }
 
-.theColorName.--beige {
-  color: beige;
+.theColorName.--OldLace {
+  color: OldLace;
 }
 
-.theColorName.--oldlace {
-  color: oldlace;
+.theColorName.--FloralWhite {
+  color: FloralWhite;
 }
 
-.theColorName.--floralwhite {
-  color: floralwhite;
+.theColorName.--Ivory {
+  color: Ivory;
 }
 
-.theColorName.--ivory {
-  color: ivory;
+.theColorName.--AntiqueWhite {
+  color: AntiqueWhite;
 }
 
-.theColorName.--antiquewhite {
-  color: antiquewhite;
+.theColorName.--Linen {
+  color: Linen;
 }
 
-.theColorName.--linen {
-  color: linen;
+.theColorName.--LavenderBlush {
+  color: LavenderBlush;
 }
 
-.theColorName.--lavenderblush {
-  color: lavenderblush;
+.theColorName.--MistyRose {
+  color: MistyRose;
 }
 
-.theColorName.--mistyrose {
-  color: mistyrose;
+.theColorName.--Gainsboro {
+  color: Gainsboro;
 }
 
-.theColorName.--gainsboro {
-  color: gainsboro;
+.theColorName.--LightGray {
+  color: LightGray;
 }
 
-.theColorName.--lightgray {
-  color: lightgray;
+.theColorName.--Silver {
+  color: Silver;
 }
 
-.theColorName.--silver {
-  color: silver;
+.theColorName.--DarkGray {
+  color: DarkGray;
 }
 
-.theColorName.--darkgray {
-  color: darkgray;
+.theColorName.--Gray {
+  color: Gray;
 }
 
-.theColorName.--gray {
-  color: gray;
+.theColorName.--DimGray {
+  color: DimGray;
 }
 
-.theColorName.--dimgray {
-  color: dimgray;
+.theColorName.--LightSlateGray {
+  color: LightSlateGray;
 }
 
-.theColorName.--lightslategray {
-  color: lightslategray;
+.theColorName.--SlateGray {
+  color: SlateGray;
 }
 
-.theColorName.--slategray {
-  color: slategray;
+.theColorName.--DarkSlateGray {
+  color: DarkSlateGray;
 }
 
-.theColorName.--darkslategray {
-  color: darkslategray;
-}
-
-.theColorName.--black {
-  color: black;
+.theColorName.--Black {
+  color: Black;
 }
 
 /*# sourceMappingURL=theColorName.css.map */

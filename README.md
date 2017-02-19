@@ -1,6 +1,6 @@
 # [theColorNames.scss](https://benkalsky.github.io/theColorName.scss/)
 
-This library contain a SCSS mixin with all 147 CSS color names:
+This library contain a SCSS mixin with all 142 CSS color names:
 
 ```
 @mixin tcn($property, $color) {
@@ -20,7 +20,7 @@ Will compile to:
 }
 ```
 
-### All 147 colors:
+### All 142 colors:
 
 NAME | HEX | RGB
 --- | --- | ---
@@ -116,7 +116,6 @@ lightskyblue | #87cefa | rgb(135, 206, 250)
 deepskyblue | #00bfff | rgb(0, 191, 255)
 dodgerblue | #1e90ff | rgb(30, 144, 255)
 cornflowerblue | #6495ed | rgb(100, 149, 237)
-mediumslateblue | #7b68ee | rgb(123, 104, 238)
 royalblue | #4169e1 | rgb(65, 105, 225)
 blue | #0000ff | rgb(0, 0, 255)
 mediumblue | #0000cd | rgb(0, 0, 205)
