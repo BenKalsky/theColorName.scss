@@ -3,14 +3,14 @@
 This library contain a SCSS mixin with all 147 CSS color names:
 
 ```
-@mixin tcn($color, $property) {
+@mixin tcn($property, $color) {
   #{$property}: #{$color};
 }
 ```
 For example:
 ```
 .tomato {
-  @include tcn($color, color);
+  @include tcn(color, $color);
 }
 ```
 Will compile to:

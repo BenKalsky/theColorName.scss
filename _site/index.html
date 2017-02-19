@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/style.css?v=90f01afa4bfb96a2912c4da1caacf48294228281">
+    <link rel="stylesheet" href="/assets/css/style.css?v=f1b483529839e4139df53344504654a3616294d0">
   </head>
   <body>
     <section class="page-header">
@@ -23,14 +23,14 @@
 
 <p>This library contain a SCSS mixin with all 147 CSS color names:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>@mixin tcn($color, $property) {
+<div class="highlighter-rouge"><pre class="highlight"><code>@mixin tcn($property, $color) {
   #{$property}: #{$color};
 }
 </code></pre>
 </div>
 <p>For example:</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>.tomato {
-  @include tcn($color, color);
+  @include tcn(color, $color);
 }
 </code></pre>
 </div>
