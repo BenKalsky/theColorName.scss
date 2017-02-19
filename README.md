@@ -1,4 +1,4 @@
-# theColorNames
+# theColorNames.scss
 
 NAME | HEX | RGB
 --- | --- | ---
