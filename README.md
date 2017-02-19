@@ -1,5 +1,27 @@
 # theColorNames.scss
 
+This library contain a SCSS mixin with all 147 CSS color names:
+
+```
+@mixin theColorName($color, $property) {
+  #{$property}: #{$color};
+}
+```
+For example:
+```
+.tomato {
+  @include theColorName($color, background-color);
+}
+```
+Will compile to:
+```
+.tomato {
+  background-color: tomato;
+}
+```
+
+### All 147 colors:
+
 NAME | HEX | RGB
 --- | --- | ---
 indianred | #cd5c5c | rgb(205, 92, 92)
@@ -145,3 +167,7 @@ lightslategray | #778899 | rgb(119, 136, 153)
 slategray | #708090 | rgb(112, 128, 144)
 darkslategray | #2f4f4f | rgb(47, 79, 79)
 black | #000000 | rgb(0, 0, 0)
+
+This project is just for fun =]
+
+Cheers
