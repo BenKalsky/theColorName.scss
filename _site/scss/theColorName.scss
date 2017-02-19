@@ -144,7 +144,7 @@ $colors: (
 );
 
 @mixin tcn($property, $color) {
-  #{$property}: #{$color};
+  #{$property}: $color;
 }
 
 @each $color in $colors {

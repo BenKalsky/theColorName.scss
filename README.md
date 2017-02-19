@@ -4,7 +4,7 @@ This library contain a SCSS mixin with all 142 CSS color names:
 
 ```
 @mixin tcn($property, $color) {
-  #{$property}: #{$color};
+  #{$property}: $color;
 }
 ```
 For example:
