@@ -149,7 +149,9 @@ $colors: (
 }
 
 @each $color in $colors {
-  .#{$color} {
-    @include theColorName($color, color);
+  .theColorName {
+    &.--#{$color} {
+      @include theColorName($color, color);
+    }
   }
 }
