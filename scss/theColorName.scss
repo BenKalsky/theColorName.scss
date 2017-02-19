@@ -143,13 +143,13 @@ $colors: (
 );
 
 @mixin tcn($property, $color) {
-        #{$property}: $color;
+  #{$property}: $color;
 }
 
 @each $color in $colors {
-        .theColorName {
-                &.--#{$color} {
-                        @include tcn(color, $color);
-                }
-        }
+  .theColorName {
+    &.--#{$color} {
+      @include tcn(color, $color);
+    }
+  }
 }
