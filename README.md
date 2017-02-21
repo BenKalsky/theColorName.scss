@@ -9,15 +9,23 @@ This library contain a SCSS mixin with all 142 CSS color names:
 ```
 For example:
 ```
-.tomato {
-  @include tcn(color, $color);
+@each $color in $colors {
+  .theColorName {
+    &.--#{$color} {
+      @include tcn(color, $color);
+    }
+  }
 }
 ```
 Will compile to:
 ```
-.tomato {
-  color: tomato;
+.theColorName.--Tomato {
+  color: Tomato;
 }
+```
+And the HTML:
+```
+<p class="theColorName --Tomato">I'm not a cucumber!</p>
 ```
 
 ### All 142 colors:
