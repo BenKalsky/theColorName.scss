@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/assets/css/style.css?v=24842db321be4070ab94309e90dccbfa005a5e8e">
+  <link rel="stylesheet" href="/assets/css/style.css?v=bf0976e5aac4d4f97dffa6195b61ddf889c1d189">
 </head>
 <body>
 <section class="page-header">
@@ -29,15 +29,23 @@
 </code></pre>
 </div>
 <p>For example:</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>.tomato {
-  @include tcn(color, $color);
+<div class="highlighter-rouge"><pre class="highlight"><code>@each $color in $colors {
+  .theColorName {
+    &amp;.--#{$color} {
+      @include tcn(color, $color);
+    }
+  }
 }
 </code></pre>
 </div>
 <p>Will compile to:</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>.tomato {
-  color: tomato;
+<div class="highlighter-rouge"><pre class="highlight"><code>.theColorName.--Tomato {
+  color: Tomato;
 }
+</code></pre>
+</div>
+<p>And the HTML:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;p class="theColorName --Tomato"&gt;I'm not a cucumber!&lt;/p&gt;
 </code></pre>
 </div>
 
@@ -768,6 +776,8 @@
 <p>This project is just for fun =]</p>
 
 <p>Cheers</p>
+
+<p><a href="https://github.com/igrigorik/ga-beacon"><img src="https://ga-beacon.appspot.com/UA-92303047-1/theColorName.scss/readme" alt="Analytics" /></a></p>
 
 
   <footer class="site-footer">

@@ -9,15 +9,23 @@ This library contain a SCSS mixin with all 142 CSS color names:
 ```
 For example:
 ```
-.tomato {
-  @include tcn(color, $color);
+@each $color in $colors {
+  .theColorName {
+    &.--#{$color} {
+      @include tcn(color, $color);
+    }
+  }
 }
 ```
 Will compile to:
 ```
-.tomato {
-  color: tomato;
+.theColorName.--Tomato {
+  color: Tomato;
 }
+```
+And the HTML:
+```
+<p class="theColorName --Tomato">I'm not a cucumber!</p>
 ```
 
 ### All 142 colors:
@@ -170,3 +178,5 @@ Black | #000000 | rgb(0, 0, 0)
 This project is just for fun =]
 
 Cheers
+
+[![Analytics](https://ga-beacon.appspot.com/UA-92303047-1/theColorName.scss/readme)](https://github.com/igrigorik/ga-beacon)
