@@ -317,4 +317,20 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-.page-header { background-color: Crimson; background-image: linear-gradient(120deg, Tomato, Crimson); }
+.page-header { background-color: DarkSlateBlue; background-image: linear-gradient(120deg, SlateBlue, DarkSlateBlue); }
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: DarkMagenta; font-weight: bold; }
+
+.main-content p { color: Indigo; }
+
+.main-content pre { background-color: Lavender; border-color: Thistle; }
+
+.main-content pre > code { color: RebeccaPurple; }
+
+body { color: MediumSlateBlue; }
+
+a { color: DarkViolet; }
+
+a:hover { text-decoration: none; color: Purple; }
+
+.site-footer-credits { color: MediumPurple; }

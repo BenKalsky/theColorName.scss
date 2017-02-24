@@ -3,9 +3,205 @@
 
 @import "{{ site.theme }}";
 
-// New CSS
+// theColorName
+
+$colors: (
+        IndianRed,
+        LightCoral,
+        Salmon,
+        DarkSalmon,
+        LightSalmon,
+        Crimson,
+        Red,
+        FireBrick,
+        DarkRed,
+        Pink,
+        LightPink,
+        HotPink,
+        DeepPink,
+        MediumVioletRed,
+        PaleVioletRed,
+        Coral,
+        Tomato,
+        OrangeRed,
+        DarkOrange,
+        Orange,
+        Gold,
+        Yellow,
+        LightYellow,
+        LemonChiffon,
+        LightGoldenRodYellow,
+        PapayaWhip,
+        Moccasin,
+        PeachPuff,
+        PaleGoldenRod,
+        Khaki,
+        DarkKhaki,
+        Lavender,
+        Thistle,
+        Plum,
+        Violet,
+        Orchid,
+        Fuchsia,
+        Magenta,
+        MediumOrchid,
+        MediumPurple,
+        RebeccaPurple,
+        BlueViolet,
+        DarkViolet,
+        DarkOrchid,
+        DarkMagenta,
+        Purple,
+        Indigo,
+        SlateBlue,
+        DarkSlateBlue,
+        MediumSlateBlue,
+        GreenYellow,
+        Chartreuse,
+        LawnGreen,
+        Lime,
+        LimeGreen,
+        PaleGreen,
+        LightGreen,
+        MediumSpringGreen,
+        SpringGreen,
+        MediumSeaGreen,
+        SeaGreen,
+        ForestGreen,
+        Green,
+        DarkGreen,
+        YellowGreen,
+        OliveDrab,
+        Olive,
+        DarkOliveGreen,
+        MediumAquaMarine,
+        DarkSeaGreen,
+        LightSeaGreen,
+        DarkCyan,
+        Teal,
+        Aqua,
+        Cyan,
+        LightCyan,
+        PaleTurquoise,
+        Aquamarine,
+        Turquoise,
+        MediumTurquoise,
+        DarkTurquoise,
+        CadetBlue,
+        SteelBlue,
+        LightSteelBlue,
+        PowderBlue,
+        LightBlue,
+        SkyBlue,
+        LightSkyBlue,
+        DeepSkyBlue,
+        DodgerBlue,
+        CornflowerBlue,
+        RoyalBlue,
+        Blue,
+        MediumBlue,
+        DarkBlue,
+        Navy,
+        MidnightBlue,
+        Cornsilk,
+        BlanchedAlmond,
+        Bisque,
+        NavajoWhite,
+        Wheat,
+        BurlyWood,
+        Tan,
+        RosyBrown,
+        SandyBrown,
+        Goldenrod,
+        DarkGoldenRod,
+        Peru,
+        Chocolate,
+        SaddleBrown,
+        Sienna,
+        Brown,
+        Maroon,
+        White,
+        Snow,
+        HoneyDew,
+        MintCream,
+        Azure,
+        AliceBlue,
+        GhostWhite,
+        WhiteSmoke,
+        SeaShell,
+        Beige,
+        OldLace,
+        FloralWhite,
+        Ivory,
+        AntiqueWhite,
+        Linen,
+        LavenderBlush,
+        MistyRose,
+        Gainsboro,
+        LightGray,
+        Silver,
+        DarkGray,
+        Gray,
+        DimGray,
+        LightSlateGray,
+        SlateGray,
+        DarkSlateGray,
+        Black
+);
+
+@mixin tcn($property, $color) {
+  #{$property}: $color;
+}
+
+//@each $color in $colors {
+//  .theColorName {
+//    &.--#{$color} {
+//      @include tcn(color, $color);
+//    }
+//  }
+//}
+
+// Page CSS
 
 .page-header {
-  background-color: Crimson;
-  background-image: linear-gradient(120deg, Tomato, Crimson);
+  background: {
+    color: DarkSlateBlue;
+    image: linear-gradient(120deg, SlateBlue, DarkSlateBlue);
+  }
 }
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: DarkMagenta;
+  font-weight: bold
+}
+
+.main-content p {
+  color: Indigo;
+}
+
+.main-content pre {
+  background-color: Lavender;
+  border-color: Thistle;
+}
+
+.main-content pre > code {
+  color: RebeccaPurple;
+}
+
+body {
+  color: MediumSlateBlue;
+}
+
+a {
+  color: DarkViolet;
+}
+
+a:hover {
+  text-decoration: none;
+  color: Purple;
+}
+
+.site-footer-credits {
+  color: MediumPurple;
+}
+
