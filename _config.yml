@@ -3,5 +3,5 @@ google_analytics: UA-38858139-15
 repository: benkalsky/theColorName.scss
 gems: ['jekyll-github-metadata']
 title: theColorName
-description: Mixin for all (142) CSS color names
+description: Mixin for all (141) CSS color names
 show_downloads: true
