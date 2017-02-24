@@ -28,7 +28,7 @@ And the HTML:
 <p class="theColorName --Tomato">I'm not a cucumber!</p>
 ```
 
-### All 142 colors:
+### All 141 colors:
 
 <ul class="table-of-content">
   <li>IndianRed | #cd5c5c | rgb(205, 92, 92)</li>
