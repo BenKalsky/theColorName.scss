@@ -624,3 +624,5 @@ ul.table-of-content li:nth-child(141n+140) { background-color: DarkSlateGray; co
 ul.table-of-content li:nth-child(141n+140):hover { background-color: rgba(47, 79, 79, 0.5); color: #1c2f2f; }
 ul.table-of-content li:nth-child(141n+141) { background-color: Black; color: Black; }
 ul.table-of-content li:nth-child(141n+141):hover { background-color: rgba(0, 0, 0, 0.5); color: black; }
+
+@media screen and (max-width: 42em) { ul.table-of-content li { font-size: 14px; } }

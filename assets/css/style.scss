@@ -248,3 +248,9 @@ ul.table-of-content {
 //    @content
 //  }
 //}
+
+@media screen and (max-width: 42em) {
+  ul.table-of-content li {
+    font-size: 14px;
+  }
+}
