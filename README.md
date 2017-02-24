@@ -1,6 +1,6 @@
 # theColorName
 
-This library contain a SCSS mixin with all 142 CSS color names:
+This library contain a SCSS mixin with all 141 CSS color names:
 
 ```scss
 @mixin tcn($property, $color) {
