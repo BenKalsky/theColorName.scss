@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+@import url("https://fonts.googleapis.com/css?family=Wendy+One");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove default margin. */
@@ -320,6 +321,8 @@ a:hover { text-decoration: underline; }
 .page-header { background-color: DarkSlateBlue; background-image: linear-gradient(120deg, SlateBlue, DarkSlateBlue); }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: DarkMagenta; font-weight: bold; }
+
+h1, h2, h3, .main-content p, .btn, .site-footer, ul.table-of-content li { font-family: 'Wendy One', sans-serif; }
 
 .main-content p { color: Indigo; }
 
