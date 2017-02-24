@@ -219,6 +219,7 @@ ul.table-of-content {
     text-align: center;
     font-size: 26px;
     margin-bottom: 15px;
+    border-radius: 0.3rem;
     transition: all .3s;
 
     @for $i from 1 through length($colors) {

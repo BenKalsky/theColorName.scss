@@ -338,7 +338,7 @@ a:hover { text-decoration: none; color: Purple; }
 .site-footer { border-color: Lavender; }
 
 ul.table-of-content { margin: 0; list-style: none; padding: 0; }
-ul.table-of-content li { line-height: 120px; text-align: center; font-size: 26px; margin-bottom: 15px; transition: all .3s; }
+ul.table-of-content li { line-height: 120px; text-align: center; font-size: 26px; margin-bottom: 15px; border-radius: 0.3rem; transition: all .3s; }
 ul.table-of-content li:nth-child(141n+1) { background-color: IndianRed; color: IndianRed; }
 ul.table-of-content li:nth-child(141n+1):hover { background-color: rgba(205, 92, 92, 0.5); color: #bc3a3a; }
 ul.table-of-content li:nth-child(141n+2) { background-color: LightCoral; color: LightCoral; }
