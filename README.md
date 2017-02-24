@@ -1,14 +1,14 @@
-# [theColorNames.scss](http://thecolorname.xyz)
+# [theColorNames](http://thecolorname.xyz)
 
-This library contain a SCSS mixin with all 142 CSS color names:
+This library contain a SCSS mixin with all 141 CSS color names:
 
-```
+```scss
 @mixin tcn($property, $color) {
-  #{$property}: $color;
+  #{$property}: #{$color};
 }
 ```
 For example:
-```
+```scss
 @each $color in $colors {
   .theColorName {
     &.--#{$color} {
@@ -18,17 +18,17 @@ For example:
 }
 ```
 Will compile to:
-```
+```css
 .theColorName.--Tomato {
   color: Tomato;
 }
 ```
 And the HTML:
-```
+```html
 <p class="theColorName --Tomato">I'm not a cucumber!</p>
 ```
 
-### All 142 colors:
+### All 141 colors:
 
 NAME | HEX | RGB
 --- | --- | ---
@@ -47,7 +47,6 @@ HotPink | #ff69b4 | rgb(255, 105, 180)
 DeepPink | #ff1493 | rgb(255, 20, 147)
 MediumVioletRed | #c71585 | rgb(199, 21, 133)
 PaleVioletRed | #db7093 | rgb(219, 112, 147)
-LightSalmon | #ffa07a | rgb(255, 160, 122)
 Coral | #ff7f50 | rgb(255, 127, 80)
 Tomato | #ff6347 | rgb(255, 99, 71)
 OrangeRed | #ff4500 | rgb(255, 69, 0)
