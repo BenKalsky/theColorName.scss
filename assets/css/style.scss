@@ -155,13 +155,6 @@ $colors: (
   #{$property}: $color;
 }
 
-//@each $color in $colors {
-//  .theColorName {
-//    &.--#{$color} {
-//      @include tcn(color, $color);
-//    }
-//  }
-//}
 
 // Page CSS
 
@@ -170,6 +163,13 @@ $colors: (
     color: DarkSlateBlue;
     image: linear-gradient(120deg, SlateBlue, DarkSlateBlue);
   }
+}
+
+.page-top-bar {
+  height: 12px;
+  width: 100%;
+  border-top: Lavender 1px solid;
+  background-image: linear-gradient(to right, $colors);
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
@@ -242,12 +242,6 @@ ul.table-of-content {
     }
   }
 }
-
-//@mixin each($num) {
-//  &:nth-child(#{$num}n) {
-//    @content
-//  }
-//}
 
 @media screen and (max-width: 42em) {
   ul.table-of-content li {
