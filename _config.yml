@@ -5,3 +5,5 @@ gems: ['jekyll-github-metadata']
 title: theColorName
 description: Mixin for all (141) CSS color names
 show_downloads: true
+sass:
+    sass_dir: ./_scss
