@@ -5,6 +5,8 @@ google_analytics: UA-38858139-15
 repository: benkalsky/theColorName.scss
 
 gems:
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-github-metadata
   - jekyll-autoprefixer
 
