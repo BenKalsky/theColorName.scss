@@ -3,103 +3,10 @@
 
 @import "{{ site.theme }}";
 
-@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import "fonts";
 
 @import "theColorName";
 
 // Page CSS
 
-.page-header {
-  background: {
-    color: DarkSlateBlue;
-    image: linear-gradient(120deg, SlateBlue, DarkSlateBlue);
-  }
-}
-
-.page-top-bar {
-  height: 12px;
-  width: 100%;
-  border-top: Lavender 1px solid;
-  background-image: linear-gradient(to right, $colors);
-}
-
-.project-stars {
-  margin-top: 24px;
-}
-
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: DarkMagenta;
-  font-weight: bold;
-}
-
-h1, h2, h3, .main-content p, .btn, .site-footer, ul.table-of-content li {
-  font-family: 'Wendy One', sans-serif;
-}
-
-.main-content p {
-  color: Indigo;
-}
-
-.main-content pre {
-  background-color: Lavender;
-  border-color: Thistle;
-}
-
-.main-content pre > code {
-  color: RebeccaPurple;
-}
-
-body {
-  color: MediumSlateBlue;
-}
-
-a {
-  color: DarkViolet;
-}
-
-a:hover {
-  text-decoration: none;
-  color: Purple;
-}
-
-.site-footer-credits {
-  color: MediumPurple;
-}
-
-.site-footer {
-  border-color: Lavender;
-}
-
-ul.table-of-content {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-
-  li {
-    line-height: 120px;
-    text-align: center;
-    font-size: 26px;
-    margin-bottom: 15px;
-    border-radius: 0.3rem;
-    transition: all .3s;
-
-    @for $i from 1 through length($colors) {
-
-      &:nth-child(#{length($colors)}n+#{$i}) {
-        background-color: nth($colors, $i);
-        color: nth($colors, $i);
-
-        &:hover {
-          background-color: rgba(nth($colors, $i), .5);
-          color: darken(nth($colors, $i), 10%);
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 42em) {
-  ul.table-of-content li {
-    font-size: 14px;
-  }
-}
+@import "page";
