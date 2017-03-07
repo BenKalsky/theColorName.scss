@@ -65,22 +65,26 @@ ul.table-of-content {
   padding: 0;
 
   li {
-    line-height: 120px;
     text-align: center;
     font-size: 26px;
+    padding: 40px;
     margin-bottom: 15px;
-    border-radius: 0.3rem;
+    border-radius: .3rem;
     transition: all .3s;
 
-    @for $i from 1 through length($colors) {
+    &:hover {
+      transform: scale(1.02);
+    }
 
+    @for $i from 1 through length($colors) {
       &:nth-child(#{length($colors)}n+#{$i}) {
         background-color: nth($colors, $i);
         color: nth($colors, $i);
 
         &:hover {
-          background-color: rgba(nth($colors, $i), .5);
-          color: darken(nth($colors, $i), 10%);
+          //background-color: rgba(nth($colors, $i), .5);
+          //color: darken(nth($colors, $i), 10%);
+          background-color: invert(nth($colors, $i));
         }
       }
     }
@@ -89,6 +93,6 @@ ul.table-of-content {
 
 @media screen and (max-width: 42em) {
   ul.table-of-content li {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
