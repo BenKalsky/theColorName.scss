@@ -59,6 +59,20 @@ a:hover {
   border-color: Lavender;
 }
 
+$prefixes: ("-moz-", "");
+
+@mixin selection($color, $background) {
+  @each $prefix in $prefixes {
+    ::#{$prefix}selection {
+      color: $color;
+      background: $background;
+      text-shadow: none !important;
+    }
+  }
+}
+
+@include selection(white, rgba(black, .8));
+
 ul.table-of-content {
   margin: 0;
   list-style: none;
@@ -70,70 +84,73 @@ ul.table-of-content {
     padding: 40px;
     margin-bottom: 15px;
     border-radius: .3rem;
+    cursor: pointer;
     transition: all .3s;
+
+    p, a {
+      transition: all .3s;
+    }
 
     &:hover {
       transform: scale(1.02);
       box-shadow: 0 0 60px 0 rgba(black, .1);
     }
 
-    @for $i from 1 through length($colors) {
-      &:nth-child(#{length($colors)}n+#{$i}) {
-        background-color: nth($colors, $i);
-
-        p, a {
-          color: nth($colors, $i);
-        }
-
-        &:hover {
-          //background-color: rgba(nth($colors, $i), .5);
-          //color: darken(nth($colors, $i), 10%);
-          background-color: invert(nth($colors, $i));
-        }
-      }
-    }
-
     p {
       margin: 0;
+
+      &:before, &:after {
+        opacity: .8;
+      }
 
       &.hex {
         text-transform: uppercase;
 
         &:before {
           content: '#';
-          opacity: .8;
         }
       }
 
       &.rgb {
         &:before {
-          content: 'rgb';
-          opacity: .8;
-          margin-right: 2px;
+          content: 'rgb(';
+        }
+
+        &:after {
+          content: ')';
         }
       }
     }
 
-    a {
-      &.name {
-        text-decoration: none;
-        position: relative;
+    @for $i from 1 through length($colors) {
 
-        @if $breaking-underlines {
-          text-shadow: (-1px) -1px 0 $background-color, 1px -1px 0 $background-color, -1px 1px 0 $background-color, 1px 1px 0 $background-color;
+      $my-color: nth($colors, $i);
+      $my-color-invert: invert(nth($colors, $i));
+      $my-color-trans: rgba(nth($colors, $i), .8);
+      $my-color-darken: darken(nth($colors, $i), 10%);
+
+      &:nth-child(#{length($colors)}n+#{$i}) {
+        background-color: $my-color;
+
+        p, a {
+          color: $my-color;
         }
 
-        @include underline($link-color);
+        &:hover {
+          background-color: $my-color-invert; // More options => color: $my-color-darken; or background-color: $my-color-trans;
 
-        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-          @include underline($link-color, 0.5);
-        }
+          a {
+            &.name {
+              @if $breaking-underlines {
+                text-shadow: (-1px) -1px 0 $my-color-invert, 1px -1px 0 $my-color-invert, -1px 1px 0 $my-color-invert, 1px 1px 0 $my-color-invert;
+              }
 
-        &:hover, &:focus {
-          @include underline($link-color-active);
+              @include underline($my-color-trans);
 
-          @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-            @include underline($link-color-active, 0.5);
+              @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+                @include underline($my-color-trans, .5);
+              }
+            }
           }
         }
       }
@@ -143,6 +160,6 @@ ul.table-of-content {
 
 @media screen and (max-width: 42em) {
   ul.table-of-content li {
-    font-size: 24px;
+    font-size: 23px;
   }
 }
