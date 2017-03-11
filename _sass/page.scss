@@ -158,8 +158,38 @@ ul.table-of-content {
   }
 }
 
-@media screen and (max-width: 42em) {
+//@media screen and (max-width: 40em) {
+//  ul.table-of-content li {
+//    font-size: 20px;
+//  }
+//}
+//
+//@media screen and (max-width: 62em) {
+//  ul.table-of-content li {
+//    font-size: 23px;
+//  }
+//}
+
+@include mq($until: tablet) { // Apply styling up to devices smaller than tablets (exclude tablets)
   ul.table-of-content li {
-    font-size: 23px;
+    font-size: 19px;
   }
 }
+
+@include mq($until: tablet, $and: '(orientation: landscape)') { // Same thing, in landscape orientation
+  ul.table-of-content li {
+    font-size: 19px;
+  }
+}
+
+@include mq(tablet, desktop) { // Apply styling to tablets up to desktop (exclude desktop)
+  ul.table-of-content li {
+    font-size: 26px;
+  }
+}
+
+//@include mq($from: mobile) {
+//  ul.table-of-content li {
+//    font-size: 18px;
+//  }
+//}
