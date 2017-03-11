@@ -66,7 +66,7 @@ $prefixes: ("-moz-", "");
     ::#{$prefix}selection {
       color: $color;
       background: $background;
-      text-shadow: transparent !important;
+      text-shadow: 0 0 transparent !important;
     }
   }
 }
