@@ -169,7 +169,7 @@
   <li><p><a class="name">LightGray</a></p><p class="hex">d3d3d3</p><p class="rgb">211, 211, 211</p></li>
   <li><p><a class="name">Silver</a></p><p class="hex">c0c0c0</p><p class="rgb">192, 192, 192</p></li>
   <li><p><a class="name">DarkGray</a></p><p class="hex">a9a9a9</p><p class="rgb">169, 169, 169</p></li>
-  <li><p><a class="name">Gray</a></p><p class="hex">808080</p><p class="rgb">128, 128, 128</p></li>
+  <li class="gray"><p><a class="name">Gray</a></p><p class="hex">808080</p><p class="rgb">128, 128, 128</p></li>
   <li><p><a class="name">DimGray</a></p><p class="hex">696969</p><p class="rgb">105, 105, 105</p></li>
   <li><p><a class="name">LightSlateGray</a></p><p class="hex">778899</p><p class="rgb">119, 136, 153</p></li>
   <li><p><a class="name">SlateGray</a></p><p class="hex">708090</p><p class="rgb">112, 128, 144</p></li>

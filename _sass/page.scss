@@ -16,26 +16,28 @@
   margin-top: 24px;
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: DarkMagenta;
-  font-weight: bold;
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: DarkMagenta;
+    font-weight: bold;
+  }
+
+  p {
+    color: Indigo;
+  }
+
+  pre {
+    background-color: Lavender;
+    border-color: Thistle;
+
+    > code {
+      color: RebeccaPurple;
+    }
+  }
 }
 
 h1, h2, h3, .main-content p, .btn, .site-footer, ul.table-of-content li {
   font-family: 'Wendy One', sans-serif;
-}
-
-.main-content p {
-  color: Indigo;
-}
-
-.main-content pre {
-  background-color: Lavender;
-  border-color: Thistle;
-}
-
-.main-content pre > code {
-  color: RebeccaPurple;
 }
 
 body {
@@ -44,11 +46,11 @@ body {
 
 a {
   color: DarkViolet;
-}
 
-a:hover {
-  text-decoration: none;
-  color: Purple;
+  &:hover {
+    text-decoration: none;
+    color: Purple;
+  }
 }
 
 .site-footer-credits {
@@ -61,12 +63,11 @@ a:hover {
 
 $prefixes: ("-moz-", "");
 
-@mixin selection($color, $background) {
+@mixin selection($color, $background-color) {
   @each $prefix in $prefixes {
     ::#{$prefix}selection {
       color: $color;
-      background: $background;
-      text-shadow: 0 0 transparent !important;
+      background-color: $background-color;
     }
   }
 }
@@ -85,10 +86,10 @@ ul.table-of-content {
     margin-bottom: 15px;
     border-radius: .3rem;
     cursor: pointer;
-    transition: all .3s;
+    transition: .3s;
 
-    p, a {
-      transition: all .3s;
+    @include mq($from: mobile, $until: tablet) {
+      font-size: 19px;
     }
 
     &:hover {
@@ -132,64 +133,39 @@ ul.table-of-content {
       &:nth-child(#{length($colors)}n+#{$i}) {
         background-color: $my-color;
 
-        p, a {
+        p {
           color: $my-color;
+        }
+
+        a.name {
+          color: $my-color;
+          text-shadow: (-1px) -1px 0 $my-color, 1px -1px 0 $my-color, -1px 1px 0 $my-color, 1px 1px 0 $my-color;
         }
 
         &:hover {
           background-color: $my-color-invert; // More options => color: $my-color-darken; or background-color: $my-color-trans;
 
-          a {
-            &.name {
-              @if $breaking-underlines {
-                text-shadow: (-1px) -1px 0 $my-color-invert, 1px -1px 0 $my-color-invert, -1px 1px 0 $my-color-invert, 1px 1px 0 $my-color-invert;
-              }
+          a.name {
+            text-shadow: (-1px) -1px 0 $my-color-invert, 1px -1px 0 $my-color-invert, -1px 1px 0 $my-color-invert, 1px 1px 0 $my-color-invert;
 
-              @include underline($my-color-trans);
+            @include underline($my-color-trans);
 
-              @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-                @include underline($my-color-trans, .5);
-              }
+            @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+              @include underline($my-color-trans, .5);
             }
           }
         }
       }
     }
+
+    &.gray {
+      &:hover {
+        background-color: white;
+
+        a.name {
+          text-shadow: (-1px) -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+        }
+      }
+    }
   }
 }
-
-//@media screen and (max-width: 40em) {
-//  ul.table-of-content li {
-//    font-size: 20px;
-//  }
-//}
-//
-//@media screen and (max-width: 62em) {
-//  ul.table-of-content li {
-//    font-size: 23px;
-//  }
-//}
-
-@include mq($until: tablet) { // Apply styling up to devices smaller than tablets (exclude tablets)
-  ul.table-of-content li {
-    font-size: 19px;
-  }
-}
-
-@include mq($until: tablet, $and: '(orientation: landscape)') { // Same thing, in landscape orientation
-  ul.table-of-content li {
-    font-size: 19px;
-  }
-}
-
-@include mq(tablet, desktop) { // Apply styling to tablets up to desktop (exclude desktop)
-  ul.table-of-content li {
-    font-size: 26px;
-  }
-}
-
-//@include mq($from: mobile) {
-//  ul.table-of-content li {
-//    font-size: 18px;
-//  }
-//}

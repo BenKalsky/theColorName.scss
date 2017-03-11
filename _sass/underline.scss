@@ -13,7 +13,7 @@ $breaking-underlines: true !default;
 
 a {
   color: $link-color;
-  transition: 100ms ease;
+  transition: .3s;
 
   &:hover, &:focus {
     color: $link-color-active;
