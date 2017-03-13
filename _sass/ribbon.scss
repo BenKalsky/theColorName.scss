@@ -4,6 +4,26 @@
       animation: octocat-wave 560ms ease-in-out;
     }
   }
+
+  .octo-box {
+    fill: White;
+    color: #4a3f8f;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .octo-arm {
+    fill: currentColor;
+    transform-origin: 130px 106px;
+  }
+
+  .octo-body {
+    fill: currentColor;
+  }
 }
 
 @keyframes octocat-wave {
