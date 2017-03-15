@@ -178,4 +178,4 @@ This project is just for fun =]
 
 Cheers
 
-[![Analytics](https://ga-beacon.appspot.com/UA-92303047-1/theColorName.scss/readme)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-92303047-1/theColorName.scss/readme?pixel)](https://github.com/igrigorik/ga-beacon)
